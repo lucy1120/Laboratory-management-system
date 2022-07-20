@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f9fbfd;
+}
+.head{
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 105px;
+    width: 100%;
+}
+.head .lingdang{
+    width: 20px;
+    height: 20px;
+    right: 0;
+    margin-right: 200px;
+    margin-top: 20px;
+    position: absolute;
+}
+.head .message{
+    position: absolute;
+    right: 0;
+    height: 60px;
+    width: 100px;
+    margin-right: 80px;
+}
+.head .message li:first-child{
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 30px;
+}
+.head .message li:nth-child(2){
+    font-size:.875em;
+    list-style-type: none;
+    line-height: 30px;
+}
+.head .photo{
+    position: absolute;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    margin-right: 50px;
+    border: 1px solid #c3c7cb;
+    border-radius: 50%;
+}
+.head .photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-top:2px;
+    border: 1px solid #5e6266;
+    background-color: #fff;
+}
+.head .out{
+	position: absolute;
+    margin-left: 60px;
+    margin-top: 25px;
+    color: #6d61ea;
+}
+.head .out a{
+	text-decoration:none;
+}
+.title{
+    margin:0 auto;
+    height: 70px;
+    width: 80%;
+    border-bottom: 1px solid #ebebeb;
+}
+.title p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #212529;
+    position: absolute;
+}
+.block1{
+    margin:30px auto;
+    height: 250px;
+    width: 80%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.block1 .left{
+    height: 210px;
+    width:250px;
+    margin:20px 0;
+    border-right: 1px solid #ebebeb;
+}
+.block1 .left img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin-left: 50px;
+    position: absolute;
+}
+.block1 .left .name{
+    font-weight: bold;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 50px;
+}
+.block1 .left .id{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 50px;
+    color: #9a9b9d;
+}
+.block1 .right{
+    height: 210px;
+    width:740px;
+    margin:-230px 0px;
+    float: right;
+}
+.block1 .right .name{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.block1 .right .major{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #9a9b9d;
+    font-size: 10px;
+    font-weight:bolder;
+}
+.block1 .right .message{
+    position: absolute;
+    margin-left: 50px;
+    font-size: .875em;
+    width:540px;
+    margin-top: 70px;
+    color: #434446;
+}
+.block1 .right .foot{
+    position: absolute;
+    margin-left: 50px;
+    width:600px;
+    height: 75px;
+    margin-top:155px;
+}
+.block1 .right .foot img{
+    width: 15px;
+    height: 15px;
+}
+.block1 .right .foot div:nth-child(2){
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -21px;
+}
+.block1 .right .foot div:nth-child(3){
+    position: absolute;
+    margin-top: 10px;
+}
+.block1 .right .foot div:nth-child(4){
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.block1 .right .foot .grade{
+    width: 100px;
+}
+.block1 .right .foot .grade p{
+    float: right;
+}
+.block2{
+    margin: 0 auto;
+    height: 70px;
+    width: 80%;
+}
+.block2 p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #212529;
+    position: absolute;
+}
+.block3{
+    margin:0 auto;
+    height: 350px;
+    width: 80%;
+}
+.block3 .right{
+    height: 500px;
+    width:45%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+.block3 .left{
+    float: right;
+    height: 500px;
+    width:45%;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    margin-top: -502px;
+}

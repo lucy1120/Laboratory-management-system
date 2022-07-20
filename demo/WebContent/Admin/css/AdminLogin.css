@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url("../images/bg.jpg") repeat;
+    background-size: cover;
+}
+
+.ws-header{
+    height: 50px;
+    width: 100%;
+    background: cornflowerblue;
+}
+
+.ws-header>.nav{
+    float: left;
+}
+.wsheader-img>img{
+    width: 25px;
+    height: auto;
+}
+.wsheader-img{
+    float: left;
+    height:50px;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.login_title{
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.input_title {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.login_row{
+    margin-bottom: 18px;
+}
+
+.input_text {
+    width: 300px;
+    background: #d7e3ff;
+    border-radius: 3px;
+    color: #333;
+    padding: 8px 6px;
+    display: block;
+    border: 1px solid #afc7ff;
+}
+
+.login_main_box{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.login_main{
+    width: 310px;
+    padding: 40px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+input{  
+	background:none;  
+	outline:none;  
+	border:none;
+}
+
+.login_btn{
+    width: 190px;
+    height: 36px;
+    background: linear-gradient( to right, #74ceff 5%, #0099ff 60%);
+    box-shadow: 0px 0px 5px #0099ff;
+    opacity: 0.6;
+    color: #eee;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+    margin-left: 60px;
+}
+
+.login_btn:hover{
+    opacity: 1.0;
+}
